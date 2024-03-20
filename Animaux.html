@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+ 
+<html lang="fr">
+<head>
+	<link href="Images/Martz90-Circle-Books.ico" rel="icon" type="image/x-icon" />
+	<meta charset="utf-8" />	 
+	<title> ペット </title>
+	<link rel="stylesheet" href="CSS/CSSMain3.css" />	
+</head>	
+
+<script>
+
+	function myFunction() {
+	  // Declare variables
+	  var input, filter, table, tr, td, i, txtValue;
+	  input = document.getElementById("myInput");
+	  filter = input.value.toUpperCase();
+	  table = document.getElementById("myTable");
+	  tr = table.getElementsByTagName("tr");
+
+	  // Loop through all table rows, and hide those who don't match the search query
+	  for (i = 0; i < tr.length; i++) {
+		td = tr[i].getElementsByTagName("td")[0];
+		if (td) {
+		  txtValue = td.textContent || td.innerText;
+		  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			tr[i].style.display = "";
+		  } else {
+			tr[i].style.display = "none";
+		  }
+		}
+	  }
+	}
+</script>
+
+
+
+<body>
+
+	<nav class="main_menu">		
+		<ul class="flex"> 
+			<a href="Alphabet.html" > アルファベット </a>
+			<a href="Particules.html" > 粒子 (りゅうし) </a>
+			<a href="Verbes.html" > 動詞 (どうし) </a>
+			<a href="Main.html" > Main </a>	
+			<a href="Voc.html" >    単語　(たんご) </a>
+		</ul>					
+	</nav>		
+	
+
+	<div id="conteneur1²1">
+		<div  class="element1²1">
+			<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+		</div>
+		<div  class="element1²1">
+			<table id="myTable">
+							
+				<tr>
+					<td> <p>Chien</p> </td>															
+					<td> <p>犬 </p></td>															
+					<td> <p> いぬ</p></td>
+					<td> <p> イヌ</p></td>					
+				</tr>
+				<tr>
+					<td> <p>Chat</p></td>										
+					
+					<td> <p>猫 </p></td>										
+					
+					<td> <p>ねこ </p></td>																
+					<td> <p>ネコ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Oiseau</p></td>										
+					
+					<td> <p>鳥 </p></td>										
+					
+					<td> <p>とり </p></td>																
+					<td> <p>トリ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Poisson</p> </td>										
+					
+					<td> <p>魚 </p></td>										
+					
+					<td> <p>さかな </p></td>																
+					<td> <p>サカナ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Lapin</p></td>										
+					
+					<td> <p>兎 </p></td>										
+					
+					<td> <p>うさぎ </p></td>																
+					<td> <p> ウサギ</p></td>																
+				</tr>
+				<tr>
+					<td> <p>Vache</p></td>										
+					
+					<td> <p>牛 </p></td>										
+					
+					<td> <p>うし </p></td>																
+					<td> <p> ウシ</p></td>																
+				</tr>
+				<tr>
+					<td> <p>Mouton</p></td>										
+					
+					<td> <p>羊 </p></td>										
+					
+					<td> <p>ひつじ </p></td>																
+					<td> <p>ヒツジ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Chèvre</p></td>										
+					
+					<td> <p>山羊</p></td>
+															
+					
+					<td> <p>やぎ </p></td>																
+					<td> <p>ヤギ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Cochon</p></td>										
+					
+					<td> <p>豚 </p></td>										
+					
+					<td> <p>ぶた </p></td>																
+					<td> <p>ブタ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Cheval</p></td>										
+					
+					<td> <p>馬 </p></td>										
+					
+					<td> <p>うま </p></td>																
+					<td> <p>ウマ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Cerf</p></td>										
+					
+					<td> <p>鹿 </p></td>										
+					
+					<td> <p> しか</p></td>																
+					<td> <p> シカ</p></td>																
+				</tr>
+				<tr>
+					<td> <p>Âne</p></td>
+					<td> <p> </p></td>
+					
+					<td> <p></p></td>										
+					
+					<td> <p>ロバ　 </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Dromadaire</p></td>										
+					
+					<td> <p> </p></td>										
+					
+					<td> <p>　 </p></td>					
+					<td> <p>ラクダ </p></td>					
+				</tr>
+				<tr>
+					<td> <p>Poule</p></td>										
+					
+					<td> <p>鶏 </p></td>										
+					
+					<td> <p>にわとり</p></td>																
+					<td> <p>ニワトリ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Souris</p></td>										
+					
+					<td> <p>鼠 </p></td>										
+					
+					<td> <p>ねずみ </p></td>																
+					<td> <p>ネズミ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Écureuil</p></td>										
+					
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>																
+					<td> <p>リス </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Hérisson</p></td>										
+					
+					<td> <p>針鼠 </p></td>										
+					
+					<td> <p>はりねずみ </p></td>																
+					<td> <p>ハリネズミ </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Hamster</p></td>										
+					
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>																
+					<td> <p>ハムスター </p></td>																
+				</tr>
+				<tr>
+					<td> <p>Furet</p></td>										
+					
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>																
+					<td> <p>フェレット </p></td>																
+				</tr>
+				<tr>
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>																
+					<td> <p> </p></td>																
+				</tr>
+				<tr>
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>																
+					<td> <p> </p></td>																
+				</tr>
+				<tr>
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>																
+					<td> <p> </p></td>																
+				</tr>
+				<tr>
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>										
+					
+					<td> <p> </p></td>																
+					<td> <p> </p></td>																
+				</tr>
+				<tr>
+					<td> </td>										
+					
+					<td> </td>										
+					
+					<td> </td>																
+				</tr>
+				
+
+			</table>
+		</div>		
+	</div>		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

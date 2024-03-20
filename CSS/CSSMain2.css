@@ -1,0 +1,441 @@
+
+*
+{
+	font-weight:bold;
+	text-shadow: 2px 2px 4px black;
+}
+
+html
+{
+	background :url(../Images/Tokyo-Shibuya-neon-lights.jpg) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+
+
+
+
+
+
+title
+{
+	font-weight:bold;
+}
+
+h1
+{
+
+    color: cyan;
+	font-family: Georgia, "Comic Sans MS", serif;
+	font-size: 70px;	
+    width: 400px; 
+    margin: auto; 
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 5px;
+
+}
+
+h2
+{
+
+	color: gold;
+	font-family: Georgia, "Comic Sans MS", serif;
+	font-size:30px;
+	
+    margin: auto; 
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 5px;
+	text-decoration:underline
+	
+}
+
+h3
+{
+	
+	color: orangered;
+    font-family: Georgia, "Comic Sans MS", serif;
+	font-size: 30px;
+	width: 500px; 
+    margin: auto; 
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 5px;
+	text-decoration:underline
+}
+
+h4
+{
+
+	color: cyan ;
+	font-family:Georgia, "Comic Sans MS", serif;
+
+}
+
+img
+{
+	text-align:center;
+	border: 5px #2AB299 groove ;
+	border-radius: 10px;
+	box-shadow: 8px 8px 8px ;
+}
+
+
+ 
+ul, il strong
+{
+	color:greenyellow;
+	font-weight:bold;
+}
+
+em
+{
+
+	
+	color:red;
+	font-style:normal;
+	text-shadow:1px 1px 1px black;
+	
+}
+
+
+a
+{
+
+   text-decoration: none;
+   color: cyan;
+   font-style: italic;
+	
+}
+
+a:hover
+{
+
+	text-decoration: underline, ;
+	color: green;
+		
+}
+	
+
+	
+ol,ul
+{
+    
+
+    margin: auto; 
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 5px;
+	color:greenyellow;
+	font-size:large;
+	font-family: Georgia, "Comic Sans MS", serif;
+	text-shadow: 2px 2px 4px black;
+}
+
+img 
+{
+	display:block;
+    margin:auto;
+}
+
+ul a
+{
+	font-size:30px;
+}
+
+p
+{
+    color:orange;
+    font-weight:bold;	
+	font-family: Georgia, "Comic Sans MS", serif;	
+	font-size:18.5px;
+	text-shadow:2px 2px 4px black; 
+    margin: auto; 
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 5px;
+
+}
+
+strong
+{
+	color:#00ace6;
+	font-size:19.5px;
+	text-shadow:1px 1px 1px black;
+}
+
+bold
+{
+	color:#ffff00;
+	font-size:19.5px;
+	text-shadow:1px 1px 1px black;
+}
+
+table
+{
+	margin:auto;
+	background-color:#52524D;
+	width:auto;
+	margin-top:250px;
+	border:1px solid #52524D;	
+}
+
+table p 
+{
+	color:red;
+}
+
+/*                       LES CLASS                         */
+
+.flex
+{
+	display: flex;
+    justify-content: space-around;
+}
+
+.element1
+{
+	background-color:#a6a6a6;
+	border: 6px #F60905 ridge;
+	border-radius: 20px;
+	opacity:0.95;
+	box-shadow: 8px 8px 8px ;
+	text-align:center;
+	width:710px;
+}
+.element1²1
+{
+	background-color:#a6a6a6;
+	border: 6px #F60905 ridge;
+	border-radius: 20px;
+	opacity:0.95;
+	box-shadow: 8px 8px 8px ;
+	text-align:center;
+	width:auto;
+}
+
+/*               LES ID                     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#conteneur
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	height:300px;
+	width:1500px;
+	margin:auto;
+	
+	
+}
+
+	#conteneur1²1
+	{
+	display:flex;
+	flex-direction:column;
+	
+	margin:auto;	
+	}
+
+#conteneur2
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	height:400px;
+	width:1500px;
+	margin:auto;
+	
+	
+}
+#conteneur3
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	height:400px;
+	width:1500px;
+	margin:auto;
+	
+	
+}
+
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+
+
+/* header */
+
+
+
+
+
+.main_menu
+{
+	text-shadow: 2px 2px 4px black;
+	max-width: auto;
+	margin-top:400px;
+	text-align:center;
+	background-color:   #52524D   ;
+	margin: 0 auto;
+		
+}
+
+	
+ul.main_menu
+{
+	margin-top:15px;
+	
+}
+
+
+	
+.main_menu	a
+{
+	
+	font-family: Georgia, "Comic Sans MS", serif;
+	text-decoration:none;
+	color:      #dacb26     ;
+	padding: 8px;
+	font-variant: small-caps;
+}
+
+
+.main_menu a:hover
+{
+	color: red;
+}
+
+	
+
+
+li.dropdown 
+{	
+	display:inline-block;
+}
+
+
+.dropdown-menu
+{
+	display:none;
+	position:absolute;
+	background-color:#f5f5f5;
+	min-width:160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu a
+{
+	color:grey;
+	padding: 12px 16px;
+	text-decoration:none;
+	display:block;
+	text-align: left;
+}
+
+.dropdown:hover .dropdown-menu 
+{
+	display:block;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+#myInput {
+  width:100%;
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  text-shadow:none;
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+  margin-top:0px;
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
